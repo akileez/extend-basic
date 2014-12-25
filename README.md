@@ -32,7 +32,7 @@ Pull requests and stars are always welcome. For bugs and feature requests, [plea
 **Keith Williams**
  
 + [github/akileez](https://github.com/akileez)
-+ [twitter/akileez](http://twitter.com/akileez) 
+
 
 ## License
 Copyright (c) 2014 Keith Williams  
