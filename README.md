@@ -4,10 +4,10 @@
 [![schoolmarm-standard-style][marm-image]][marm-url]
 [![Downloads][downloads-image]][downloads-url]
 
-> extend objects in javascript
+> extend objects in javascript (shallow)
 
 ## Install
-## Install with [npm](npmjs.org)
+#### Install with [npm](npmjs.org)
 
 ```bash
 npm i extend-basic --save
@@ -22,7 +22,27 @@ npm test
 ## Usage
 
 ```js
-var extend = require('extend-basic');
+var extend = require('extend-basic')
+
+var a = {
+  foo: 1,
+  bar: 'baz',
+  bam: true
+}
+
+var b = {
+  bam: false,
+  boo: [1, 2, 3]
+}
+
+console.log(extend(a, b)) // produces -->
+
+{
+  foo: 1,
+  bar: 'baz',
+  bam: false,
+  boo: [1, 2, 3]
+}
 ```
 
 ## API
